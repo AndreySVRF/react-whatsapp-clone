@@ -4,11 +4,13 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Chat from './components/Chat/Chat';
 import Login from './components/Login/Login';
 import { useStateValue } from './StateProvider';
+import reducer, {actionType} from './reducer'
 
 import './App.css';
 
 function App() {
   const [{ user }, dispatch] = useStateValue(null);
+  console.log(actionType.SET_USER)
 
   return (
     <div className='app'>

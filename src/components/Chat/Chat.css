@@ -46,6 +46,7 @@
   padding: 10px;
   border-radius: 10px;
   width: fit-content;
+  max-width: 85%;
   background-color: #fff;
   margin-bottom: 30px;
 }
